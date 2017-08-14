@@ -29,7 +29,7 @@ class Polynomial:
         assert len(args) == 1
         return self.eval(args[0])
 
-
-P = Polynomial((1, 3, 6, 4, 2, 0, 0, 3))
-print(P)
-print(P(5))
+if __name__ == '__main__':
+    P = Polynomial((1, 3, 6, 4, 2, 0, 0, 3))
+    print(P)
+    print(P(5))
